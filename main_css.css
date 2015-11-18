@@ -1,0 +1,110 @@
+﻿/*大页面用这个样式表*/
+
+body{
+  font-family:微软雅黑;
+  font-size:15px;
+  background:#8aa8d9;
+}
+a:link{color:tomato;}
+a:visited{color:tomato;}
+/*以下是基本框架样式*/
+#main{
+  width:900px;margin-left:auto;margin-right:auto;margin-top:50px;
+}
+#r1{
+  width:42px;height:42px;
+  background-image:url(img/rc_1.png);
+  float:left;
+
+}
+#r2{
+  width:816px;height:42px;
+  background-image:url(img/rc_2.png);
+  float:left;
+
+}
+#r3{
+  width:42px;height:42px;
+  background-image:url(img/rc_3.png);
+  float:left;
+
+}
+#header{
+  float:left;
+  background:white;
+  width:900px;
+}
+#logo{
+  width:186px;height:66px;
+  background-image:url(img/logo.png);
+  float:left;margin-left:30px;
+}
+#time{
+  width:420px;
+  float:left;
+  margin-left:40px;margin-top:45px;
+}
+#body_part{
+  background:white;float:left;width:900px;padding-top:30px;
+}
+
+#footer{
+  float:left;width:900px;
+  color:gray;text-align:center;font-family:Tahoma;font-size:13px;background:white;
+  padding-top:15px;
+}
+#r4{
+  float:left;width:42px;height:42px;margin-top:-15px;
+  background-image:url(img/rc_4.png);
+}
+#r5{
+  width:816px;height:42px;margin-top:-15px;
+  background-image:url(img/rc_2.png);
+  float:left;
+}
+#r6{
+  width:42px;height:42px;margin-top:-15px;
+  background-image:url(img/rc_6.png);
+  float:left;
+}
+td{
+  border:1px solid;
+}
+table{
+  border:1px solid;
+}
+/*main.php*/
+.show{
+  margin-left:30px;margin-top:30px;
+}
+/*all_income_expense.php*/
+#show_in_out{
+  margin-left:auto;margin-right:auto;width:690px;
+}
+/*user_manage.php*/
+#user_list{
+  width:700px;
+  margin-right:auto;margin-left:auto;
+}
+.td_title{
+  background-color:skyblue;
+}
+.td_naiyou{
+  background-color:Cornsilk;
+}
+/*user_info.php*/
+#user_info{
+  width:400px;
+  margin-right:auto;margin-left:auto;
+}
+#operation{
+  width:180px;
+  margin-right:auto;margin-left:auto;margin-top:10px;
+}
+#operation input{
+  float:left;
+}
+#tip{
+  margin-right:auto;margin-left:auto;margin-top:10px;
+  width:430px;
+}

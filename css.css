@@ -1,0 +1,145 @@
+﻿/*小页面使用本样式表*/
+
+body{
+  font-family:微软雅黑;
+  font-size:15px;
+  background:#8aa8d9;
+}
+a:link{color:tomato;}
+a:visited{color:tomato;}
+/*以下是基本框架样式*/
+#main{
+  width:750px;margin-left:auto;margin-right:auto;margin-top:50px;
+}
+#r1{
+  width:42px;height:42px;
+  background-image:url(img/rc_1.png);
+  float:left;
+
+}
+#r2{
+  width:666px;height:42px;
+  background-image:url(img/rc_2.png);
+  float:left;
+
+}
+#r3{
+  width:42px;height:42px;
+  background-image:url(img/rc_3.png);
+  float:left;
+
+}
+#header{
+  float:left;
+  background:white;
+  width:750px;
+}
+#logo{
+  width:186px;height:66px;
+  background-image:url(img/logo.png);
+  float:left;margin-left:20px;
+}
+#title{
+  width:150px;
+  float:left;
+  margin-left:-20px;margin-top:45px;
+}
+#body_part{
+  background:white;float:left;width:750px;padding-top:30px;
+}
+
+#footer{
+  float:left;width:750px;
+  color:gray;text-align:center;font-family:Tahoma;font-size:13px;background:white;
+  padding-top:15px;
+}
+#r4{
+  float:left;width:42px;height:42px;margin-top:-15px;
+  background-image:url(img/rc_4.png);
+}
+#r5{
+  width:666px;height:42px;margin-top:-15px;
+  background-image:url(img/rc_2.png);
+  float:left;
+}
+#r6{
+  width:42px;height:42px;margin-top:-15px;
+  background-image:url(img/rc_6.png);
+  float:left;
+}
+/*index.php*/
+#form{
+  width:250px;margin-left:auto;margin-right:auto;margin-top:50px;
+}
+.label{
+  width:70px;float:left;
+}
+#user_input{
+  width:150px;float:left;margin-bottom:5px;
+}
+#user_input input{
+  width:150px;
+}
+#psw_input{
+  width:150px;float:left;
+}
+#psw_input input{
+  width:150px;
+}
+#forget_psw{
+  float:left;width:80px;margin-left:10px;
+}
+#button{
+  width:100px;margin-left:auto;margin-right:auto;padding-top:10px;clear:both;
+}
+#button input{
+  width:50px;float:left;
+}
+/*err_login.php*/
+#login_err_info{
+  text-align:center;
+}
+/*info.php*/
+#install_info{
+  width:300px;
+  margin-left:auto;margin-right:auto;
+}
+#install_info p{
+  float:right;
+  margin-top:5px;margin-bottom:5px;
+}
+.input{
+  width:150px;
+}
+#submit_btn{
+  width:50px;margin-right:120px;margin-bottom:20px;
+}
+.tip{
+  width:300px;
+  font-family:Tahoma;font-size:13px;
+  float:right;
+}
+/*user_register.php*/
+#register_info{
+  width:350px;
+  margin-right:auto;margin-left:auto;
+}
+.register_input{
+  width:150px;
+}
+/*user_password.php*/
+#user_password{
+  width:240px;
+  margin-right:auto;margin-left:auto;
+}
+.user_password_input{
+  width:150px;
+}
+/*user_password_change*/
+#password_change{
+  width:280px;
+  margin-right:auto;margin-left:auto;
+}
+.password_change_input{
+  width:150px;
+}
